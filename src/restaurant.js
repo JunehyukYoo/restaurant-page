@@ -1,8 +1,8 @@
 // restaurant.js
 import "./style.css";
-import { renderAbout, testAbout } from "./includes/about.js";
-import { renderHome, testHome } from "./includes/home.js";
-import { renderMenu, testMenu } from "./includes/menu.js";
+import { renderAbout } from "./includes/about.js";
+import { renderHome } from "./includes/home.js";
+import { renderMenu } from "./includes/menu.js";
 
 renderHome();
 

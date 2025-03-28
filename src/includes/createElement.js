@@ -1,7 +1,7 @@
 // createElement.js
 
 // Input parameters must be strings
-export default function(_type, _content = "", _class = null, _id = null) {
+export default function(_type, _class = null, _content = "",_id = null) {
     let domElem = null;
     try {
         domElem = document.createElement(_type);

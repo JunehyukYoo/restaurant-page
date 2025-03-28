@@ -7,6 +7,6 @@ export const renderMenu = function () {
     const content = document.querySelector("#content");
     content.innerHTML = "";
 
-    const test = createElement("div", "THIS IS THE MENU!")
+    const test = createElement("div", null, "THIS IS THE MENU!")
     content.appendChild(test);
 }
